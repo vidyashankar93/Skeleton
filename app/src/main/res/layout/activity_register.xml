@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.girivi.bla.Register">
+
+    <TextView
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:id="@+id/textView4"
+        android:fontFamily="cursive" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:background="#ECEFF1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:id="@+id/name"
+        style="@android:style/Widget.DeviceDefault.Light.AutoCompleteTextView"
+        android:fontFamily="sans-serif" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="Enter password"
+        android:background="#ECEFF1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/password"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Family Name"
+        android:background="#ECEFF1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/cpassword"
+        style="@android:style/Widget.EditText"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter EmailID"
+        android:background="#ECEFF1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/email"
+        style="@android:style/Widget.AutoCompleteTextView"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="35dp"
+        android:inputType="date"
+        android:hint="Date Of Birth"
+        android:background="#ECEFF1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/editText11" />
+
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:background="#ECEFF1"
+        android:layout_gravity="center"
+        android:layout_height="30dp"
+        android:tag="Select Gender"
+        android:id="@+id/spinner" />
+
+    <Button
+        android:text="Register"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#37474F"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:fontFamily="sans-serif" />
+
+
+</LinearLayout>
